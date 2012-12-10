@@ -1,4 +1,3 @@
-
 function contentEval(source) {
     // Check for function input.
     if ('function' == typeof source) {
@@ -102,7 +101,7 @@ contentEval(function () {
         if(localStorage.rpc)
             return localStorage.rpc;
         else
-            return 'http://honooon.3322.org:6800/jsonrpc';
+            return 'http://localhost:6800/jsonrpc';
     }
     EF.init_pop = function () {
         var html = '<div class="choose_start" style="height:150px;">'+
